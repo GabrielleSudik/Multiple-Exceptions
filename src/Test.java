@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;
 
@@ -17,6 +18,10 @@ public class Test {
 		//that will give an error if you also have the
 		//IOEx line active above
 		//or you could comment out this one and activate IOEx
+		
+	}
+	
+	public void input() throws IOException, FileNotFoundException{
 		
 	}
 }
